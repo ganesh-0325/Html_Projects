@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<head>
+ 
+  <title>Best BSc IT college in Nepal</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="shortcut icon" href='http://techspire.edu.np/storage/setting/d622f48c-a44c-4d45-8bf6-a0272ba8bc0b.png'  type="image/x-icon">
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<style>
+   *{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+ }
+.banner {
+   display: flex;
+  width: 100%;
+  min-height: 65vh; 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-color: white;
+}
+
+      body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    .navbar {
+      background-color: white;
+      color: black;
+      padding: 10px 20px;
+width: 80%;
+margin-left: 20%;
+height: 10%;
+position: fixed;
+display: flex;
+border-bottom-left-radius: 10px;
+    }
+
+    .navbar ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      gap: 20px;
+      align-items: center;
+    }
+
+    .navbar ul li {
+      position: relative;
+      padding: 10px 15px;
+      cursor: pointer;
+    }
+
+    .navbar ul li i {
+      margin-left: 5px;
+    }
+
+    .navbar ul li:hover {
+      background-color: red;
+      color: white;
+      border-radius: 5px;
+      transition: 3s;
+    }
+
+    .navbar ul li:hover > ul {
+      display: block;
+    }
+
+    .navbar ul li ul {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      background-color: white;
+      width: 200px;
+      border: 1px solid #ddd;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+
+    .navbar ul li ul li {
+      padding: 10px;
+      background-color: white;
+      border-bottom: 1px solid lightpink;
+      color: black;
+    }
+
+    .navbar ul li ul li:hover {
+      background-color: red;
+    
+      color: white;
+      transition: 2s;
+    }
+
+    .banner {
+      height: 300px;
+      background-size: cover;
+      background-position: center;
+    }
+
+    @media screen and (max-width: 600px) {
+      .navbar ul {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .navbar ul li {
+        width: 100%;
+      }
+
+      .navbar ul li ul {
+        position: static;
+        width: 100%;
+      }
+    }
+
+    button{
+        margin-left: auto;
+       height: 40%;
+       color: red;
+  margin-top: 1%;
+border: 1px solid red;
+  border-radius: 5px;
+margin-top: 1.9%;
+  background-color: transparent;
+    }
+    button:hover{
+        background-color: red;
+        color: white;
+        transition: 3s;
+  
+    }
+h1{
+background-color: red;
+color: white;
+box-shadow: 0 0 10px white;
+font-size: 1.9rem;
+border-radius: 10px;
+}
+.mini{
+    background-color:white;
+    width: 40%;
+  
+ border-radius: 10px;
+     margin-top: -1%;
+    margin-left:7% ;
+}
+.anotherpart{
+  border: 1px solid whitesmoke;
+    height: 90vh;
+    width: 70%;
+    margin: 0 auto;
+   background-color: white;
+ box-shadow: 0 0 10px antiquewhite;
+}
+.time{
+    margin-top: 4%;
+    display: flex;
+    justify-content: space-evenly;
+}
+h2{
+    margin-top: 3%;
+}
+.semi{
+    height: 100vh;
+    width: 70%;
+    background-color: red;
+    margin: 0 auto;
+}
+.main-nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 0;
+}
+
+.main-nav ul li {
+  padding: 10px 15px;
+  font-weight: bold;
+  color: #000;
+  border-bottom: 3px solid transparent;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.main-nav ul li:hover {
+  color: red;
+  border-bottom: 3px solid red;
+}
+
+.main-nav ul li.active {
+  color: red;
+  border-bottom: 3px solid red;
+}
+
+.main-nav ul li a {
+  text-decoration: none;
+  color: inherit;
+  pointer-events: none;
+}
+
+.tab-content {
+  display: none;
+  padding: 20px;
+  width: 70%;
+  margin: 30px auto;
+  border: 1px solid #eee;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #eee;
+}
+
+.tab-content.active {
+  display: block;
+}
+
+.secondlast{
+  height:40vh;
+  width: 100%;
+  background-color:darkred;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#sera{
+  font-size: 2rem;
+}
+.box{
+  height: 60vh;
+  width: 100%;
+background-image: url('https://techspire.edu.np/frontend/assets/images/footer-bg.png');
+  display: grid;
+  justify-content: initial;
+}
+.box1{
+  margin: 5%;
+}
+.box2{
+  margin-top: -15%;
+  margin-left: 20%;
+}
+.box3{
+  margin-top: -18%;
+  margin-left: 30%;
+}
+.box4{
+  margin-top: -20%;
+  margin-left: 40%;
+}
+ .map-container {
+      width: 100%;
+      max-width: 500px;
+      height: 350px;
+      border: 4px solid #f0f0f0;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+      margin-top: -25%;
+      margin-left: auto;
+      padding: 2%;
+    }
+
+    iframe {
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }
+    .footer{
+      background-color:darkred;
+      color: white;
+height: 10vh;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    
+    @media (max-width:400px){
+      .banner{
+         height: auto;
+    width: 100%;
+    margin-left: 0;
+    background-size: cover;
+    background-position: center;
+
+ 
+      }
+    
+      .navbar{
+        height: fit-content;
+        width: fit-content;
+      position: static;
+      }
+      .navbar ul {
+      height: fit-content;
+      width: fit-content;
+    
+    }
+      h1{
+        margin-top: -10px;
+      }
+      .anotherpart{
+      height: 100%;
+      width: 100%;
+      }
+      .anotherpart img{
+        margin-left: 40px;
+      }
+      .time{
+       margin-left: 30px;
+      }
+     .main-nav a{
+      height: fit-content;
+width: max-content;
+     }
+     .secondlast {
+      height: fit-content;
+      width: fit-content;
+     }
+    .banner img{
+      position: static;
+    }
+    }
+</style>
+</head>
+<body>
+    
+ <section class="banner" style="background-image: url('https://techspire.edu.np/storage/setting/4220c019-3e6b-4221-888a-948091a0ad21.png');">
+  <img  style="width: 10%; position: fixed; height: 20%; "  src="http://techspire.edu.np/storage/setting/d622f48c-a44c-4d45-8bf6-a0272ba8bc0b.png" alt="Techspire Logo" >
+    
+  <div class="navbar">
+       
+        <ul>
+            <li>Overview</li>
+            <li>About us <i class="fa-solid fa-caret-down"></i>
+            <ul>
+                <li>About college</li>
+                <li>About University</li>
+                <li>Our Leaders</li>
+            </ul></li>
+            <li>Courses <i class="fa-solid fa-caret-down"></i>
+            <ul>
+                <li>MBA</li>
+                <li>BSc IT</li>
+            </ul></li>
+            <li>Admission <i class="fa-solid fa-caret-down"></i>
+            <ul>
+                <li>Admission</li>
+                <li>Admission Form</li>
+                <li>Admission Intake</li>
+                <li>Admission Scholarship</li>
+            </ul></li>
+            <li>Explore Techspire<i class="fa-solid fa-caret-down"></i>
+            <ul>
+                <li> Our Club </li>
+                <li>Our Blog</li>
+            </ul></li>
+            <li>Career</li>
+            <li>Contact Us</li>
+        </ul>
+        <button>Apply Now</button>
+    </div>
+    
+</section>
+<div class="mini">
+<h1>B.Sc. (Hons.) Information Technology</h1>
+</div>
+<br>
+<div class="anotherpart" style="padding: 3%;">
+
+    <img src="https://techspire.edu.np/storage/course/320e5baf-fc70-4685-8ca3-0eb7fdd135d9.png" alt="MBA Class Image" width="100%" height="70%">
+<br>
+<div class="time">
+    <label><i class="fa-solid fa-clock"></i> Duration <br> 3 years (6 semesters)</label>
+<label><i class="fa-solid fa-calendar-days"></i> Credit Hour <br>123</label>
+<label><i class="fa-solid fa-bell"></i>College Timing <br> 6:30 a.m. to 11:30 a.m. -Lecture Hour</label>
+</div>
+<h2>B.Sc. (Hons.) Information Technology <label style="color: red;">B.Sc.IT</label></h2>
+</div>
+  <br>
+  <br>
+
+
+<nav class="main-nav">
+  <ul>
+    <li onclick="showTab('overview')" class="active"><a>Overview</a></li>
+    <li onclick="showTab('structure')"><a>Course Structure</a></li>
+    <li onclick="showTab('documents')"><a>Documents Required</a></li>
+    <li onclick="showTab('dissertation')"><a>Dissertation</a></li>
+    <li onclick="showTab('attend')"><a>Who Should Attend</a></li>
+    <li onclick="showTab('career')"><a>Career Option</a></li>
+  </ul>
+</nav>
+
+
+<div id="overview" class="tab-content active">
+  <h3>Welcome to Techspire,the Best BSc IT college in 
+    <br> Nepal -Igenite Your Tech Carrer with Excellence!
+  </h3>
+  <p>World-class training and development programs developed by top teachers. Build skills with courses, certificates, and degrees from world-class universities and companies.
+    <br>
+    <br>
+    <label style="font-weight: bold;">Aim of Courses</label>
+    <br>
+    <br>
+    This programme is specifically designed to provide:
+    <ol>
+        <li>
+ Facilitate your progression, both academic and practical, by developing knowledge, key skills and the capacity for independent life-long learning.</li>
+    <li>Develop your skills in imaginative problem-solving and decision-making.</li>
+<li>Provide you with a stimulating, interactive and accessible course of study that gives you a sound grasp of Information Technology knowledge & analysis and contemporary issues which you can develop and apply in your future employment.</li>
+</ol>
+<br>
+<br>
+<label style="font-weight: bold;">Degree & Recognition</label>
+<br>
+<br>
+Degree of B.Sc. (Hons.) in IT will be awarded by Asia Pacific University of Technology & Innovation .B.Sc.(Hons.) in IT is recognized by Tribhuvan University as Bachelor’s Degree (Information Technology). We are approved by the Ministry of Education, Nepal Government to run the courses from APU, Malaysia at Kathmandu, Nepal. Asia Pacific University (APU) received international recognition by Quacquarelli Symonds (QS) in 2017 with APU being awarded 5-Star in four categories of the QS Stars Rating – Teaching, Employability, Facilities and Inclusiveness. The QS Stars rating measures achievements of universities worldwide.
+  </p>
+</div>
+
+<div id="structure" class="tab-content">
+    <p>
+        Each degree is divided into three levels which denote the academic standards, where completion of level 3 is the Honours standard. For full-time students each level corresponds to a year of study. Each year of full-time study comprises of 2 semesters each of 6 months. Each semester comprises minimum of 16 weeks of teaching weeks and 2 weeks of additional independent learning & assessment.
+    </p>
+    <br>
+    <br>
+  <h3>Level 1</h3>
+  <br>
+  <br>
+ <p>You will learn fundamental skills required by every IT professional, and the basic understanding of the underlying computer system through Computer Architecture, operating systems, networks and databases. The modules will also help you develop personal and organizational skills, as well as nurture creativity and innovation.
+    <br> 
+    <br>
+    <label style="font-weight: bold;">Common Modules</label>
+    <ul>
+       <li>Computing & IT in the Workplace</li>
+       <li>Introduction to Management</li>
+       <li>System Analysis & Design</li>
+       <li> Fundamentals of Software Development</li>
+       <li>Mathematical Concepts for Computing</li>
+       <li>Operating Systems & Computer Architecture</li>
+       <li>Introduction to Networking</li>
+       <li> Introduction to Databases</li>
+    </ul>
+    <br><br>
+    <label style="font-weight: bold;">Specialized Modules</label>
+    <ul>
+        <li>Introduction to C Programming</li>
+        <li>Fundamentals of Web Design and Development
+</li>
+    </ul>
+    <br><br>
+    <label style="font-weight: bold;">Level 2</label>
+    A broader range of skills will be learnt, in which you will gain better understanding of frameworks and planning techniques for the strategic management of information systems, programming languages and techniques, and further analysis and design skills. We will further nurture your creativity and innovation as well as independent learning to prepare you for the workplace
+    <br><br>
+    <label style="font-weight: bold;">Common Modules</label>
+    <br><br>
+    <ul>
+        <li>Computing & IT in the Workplace</li>
+        <li>Object Oriented Development with Java</li>
+        <li>  System Development Methods</li>
+        <li>Professional & Enterprise Development</li>
+        <li>Creativity & Innovation</li>
+        <li>Research Methods for Computing and Technology</li>
+    </ul>
+    <br><br>
+    <label style="font-weight: bold;">Specialised Modules</label>
+    <br><br>
+    <ul>
+        <li><i class="fa-solid fa-code"></i> Introduction to C Programming</li>
+        <li> Web Applications</li>
+        <li> Integrated Business Processes with SAP ERP Systems</li>
+        <li> Human-Computer Interaction</li>
+    </ul>
+    <label style="font-weight: bold;">Elective Modules (choose 3)</label>
+    <ul>
+        <li>Probability & Statistical Modelling OR System Programming & Computer Control</li>
+        <li> Enterprise Systems OR System & Network Administration</li>
+        <li>Further Web Design & Development OR Data Centre Infrastructure</li>
+    </ul>
+    <br><br>
+    <label style="font-weight: bold;">INTERNSHIP (12 weeks)</label>
+    <br><br>
+    Students will undertake an Internship/Industrial Training for a minimum period of 12 weeks to prepare them for a smooth transition from the classroom to the working environment.
+
+    <br><br>
+    <label style="font-weight: bold;">LEVEL 3</label>
+    <p>You will make use of your previous studies and industrial experience to extend your familiarity in a broad range of information technologies and to refine your personal and professional development. You will enhance your programming skills and move further into the areas of cloud computing and big data. A final year project requires you to investigate and develop a solution for a real-world problem. You will demonstrate your ability to combine technical knowledge, critical thinking and analytical skills to produce a personal achievement portfolio.</p>
+    <br><br>
+    <label style="font-weight: bold;">Common Modules</label>
+    <br><br>
+    <ul>
+        <li>  Innovation Management & New Product Development
+</li>
+        <li>   Project Management</li>
+    </ul>
+    <br><br>
+    <label style="font-weight: bold;">
+         Specialised and Option Modules
+    </label>
+    <br><br>
+    <ul>
+        <li>Mobile & Web Multimedia</li>
+        <li> Advanced Database Systems</li>
+        <li>   Cloud Infrastructure & Services</li>
+        <li>Computer Systems Management</li>
+        <li> Entrepreneurship</li>
+        <li> Investigations in Information Technology</li>
+        <li>nformation Technology Project</li>
+    </ul>
+    <br><br>
+    <label style="font-weight: bold;">Elective Modules (choose 2)</label>
+ <br><br>
+ <ul>
+    <li> Internet of Things: Concepts & Applications OR Distributed Computer Systems</li>
+    <li>Designing & Developing Applications on Cloud OR Knowledge Discovery & Big Data Analytics</li>
+ </ul>
+</p>
+</div>
+
+<div id="documents" class="tab-content">
+  <h3>Direct Entry to Level1 of the Degree: </h3>
+  <br><br>
+  <p><ul>
+    <li> Successful completion of 10+2 or equivalent (any discipline) with minimum 50% marks in Mathematics at SEE level(Grade-X) or ;</li>
+    <li>Successful completion of A-Level with at least a pass in 3 subjects and successful completion of 0-Level or equivalent with credit in Mathematics or ;</li>
+    <li>Successful completion of STPM with 2 full passes or equivalent with minimum CGPA of 2.0 and completion of SPM or equivalent with credit in Mathematics or ;</li>
+   <li> A qualification that APU accepts as equivalent to the above.</li> 
+  </ul>
+<br><br>
+<label style="font-weight: bold;">Direct Entry to Level 2 of the Degree:</label>
+<ul>
+    <li>Successful completion of Level 1 of an APU Computing & Technology Programme; or</li> 
+    <li>A Diploma in Computer Science, Information Systems, Information Technology, Software Engineering or equivalent with a minimum CGPA of 2.5; or</li>
+    <li> Any other Diploma with a minimum CGPA of 2.5, and credit in Mathematics at SPM level; or</li>
+    <li> A qualification that APU accepts as equivalent to the above.</li>
+</ul>
+
+<br><br>
+<label style="font-weight: bold;">English Requirements</label>
+<br><br>
+Evidence of satisfactory English language skills is required for candidates where English is not their first language.
+List of documents needed for enrollment in B.Sc.IT course :
+<br><br>
+<ul>
+    <li>Attested xerox copy of SLC marks card and character certificate.</li>
+    <li> Attested xerox copy of 10+2 marks cards or equivalent academic transcript, character certificate, provisional pass certificate and migration certificate.</li>
+    <li>Student has to submit the original migration certificate to the college.</li>
+    <li>Incase of appearing students, eligibility documents has to be submitted within the deadlines given by the Admission Department.
+</li>
+</ul>
+</p>
+</div>
+
+<div id="dissertation" class="tab-content">
+  <h3>Degree & Dissertation</h3>
+  <br><br>
+  <p> Degree of B.Sc.IT will be awarded by Asia Pacific University of Technology & Innovation. B.Sc.IT is recognized by Tribhuvan University as a Bachelor’s Degree in relevant Subjects. College for Professional Studies has been approved by the Ministry of Education, Nepal Government to run these courses. Asia Pacific University (APU) received international recognition by Quacquarelli Symonds (QS) in 2017 with APU being awarded 5-Star in four categories of the QS Stars Rating – Teaching, Employability, Facilities and Inclusiveness. The QS Stars rating measures achievements of universities worldwide
+  <br><br>
+  <label style="font-weight: bold;">Dissertation</label>
+  <br>
+  You are required to complete industry-based projects/dissertations where possible; however the emphasis must be placed on effective research methodologies and strategies that are appropriate to the field of IT. It is expected that the project develops critical skills to assess and evaluate current issues within the areas of software development, software engineering, web development, data bases, computer networking and computer system. The dissertation should comprise a project report which looks at a particular issue, focusing upon establishing and interpreting a set of facts and recommending implementable solutions.
+  <br><br>
+  <label style="font-weight: bold;">Specialization</label>
+  <ul>
+    <li>Software Development</li>
+    <li> Computer Networking</li>
+    <li> Database</li>
+  </ul>
+  </p>
+</div>
+
+<div id="attend" class="tab-content">
+  <h3>Who Should Attend</h3>
+  <p>The main focus of an IT bachelor's degree program is information processing, management, security, and managing information. The main areas of study for this degree include networking, databases, and software. A program of study in the areas of web design, databases, computer networking, computer systems, programming, software development, software testing, and software engineering is required to get a Bachelor of Science in Information Technology degree. Graduates of BSc IT programs with a foundation in information technology are qualified to handle activities involving the processing, storage, and sharing of data among computers, smartphones, and other electronic devices. This course is appropriate for people who have a strong interest in working with computers and create a career out of it.</p>
+</div>
+
+<div id="career" class="tab-content">
+ <p>
+    There are many career options within the IT industry and in organizations that are dependent on IT for their efficient and effective operation. Following careers in IT will experience the fastest growth, pay salaries well above the national average, boast top employment rates, and offer a range of promotion opportunities.
+    <ul>
+      <li>Systems Analyst</li>
+      <li> Systems Analyst
+ IT Executive</li>
+      <li> IT Consultant
+</li>
+      <li>Information Systems Analyst</li>
+      <li> Chief Technology Officer (CTO)</li>
+      <li> Technical Support Manager</li>
+      <li>IT Sales Manager</li>
+    </ul>
+ </p>
+</div>
+<br><br>
+<div class="secondlast">
+
+    <label id="sera"> Are you ready to take the next step <br> toward your future career?
+       <br>
+        <button style="display: flex;justify-content: center;align-items: center; width: 30%;">APPLY NOW -></button>
+    </label>
+</div>
+<div class="box">
+    <div class="box1">
+      <p>  <label style="font-weight: bold;">Main Navigation</label>
+        <br>
+    Home<br>About college<br>Courses<br>Notice & Event <br>Contact
+
+      </p>
+    </div>
+    <div class="box2">
+        <p>
+            <label style="font-weight: bold;">Admission for</label>
+            <br>How to apply <br>Dates & Deadllines <br>Students Activites <br>Supports
+        </p>
+    </div>
+    <div class="box3">
+    <p>
+        <label style="font-weight: bold;">Quick Links</label>
+        <br>Apply Now<br>Blog <br>Teachers 
+    </p>
+    </div>
+    <div class="box4">
+        <p>
+       <img class="" src="https://techspire.edu.np/frontend/assets/logo/footer-logo.png" alt="Techspire Logo">
+   <br>New Baneshwor-10, Kathmandu<br>
+info@techspire.edu.np<br>01-5916307, 980131773
+        </p>
+    </div>
+   <div class="map-container">
+  <iframe 
+  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3532.152726543773!2d85.32895267495616!3d27.71093977619537!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb1904c0177a6d%3A0x90c3b6c23e58fd93!2sTechspire%20College!5e0!3m2!1sen!2snp!4v1721568598343!5m2!1sen!2snp" 
+  width="100%" 
+  height="350" 
+  style="border:0; border-radius: 10px;" 
+  allowfullscreen="" 
+  loading="lazy" 
+  referrerpolicy="no-referrer-when-downgrade">
+</iframe>
+
+  </div>
+
+</div>
+
+<div class="footer">
+  <label>© 2023 Techspire All rights reserved | Designed by CodeHimalaya
+
+privacy policy
+terms of services
+
+
+</label>
+</div>
+
+<script>
+  function showTab(tabId) {
+ 
+    document.querySelectorAll('.tab-content').forEach(tab => {
+      tab.classList.remove('active');
+    });
+
+    
+    document.getElementById(tabId).classList.add('active');
+
+   
+    document.querySelectorAll('.main-nav ul li').forEach(li => {
+      li.classList.remove('active');
+    });
+
+  
+    document.querySelectorAll('.main-nav ul li').forEach(li => {
+      const a = li.querySelector('a');
+      if (a && a.textContent.trim().toLowerCase().replace(/\s+/g, '') === tabId) {
+        li.classList.add('active');
+      }
+    });
+  }
+</script>
+
+</body>
+</html>
